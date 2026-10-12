@@ -42,7 +42,7 @@
 
 ## 源码与构建
 
-使用 Kotlin、Jetpack Compose 和 Android 自带加密接口。项目没有上传签名私钥、密码或个人文件。
+使用 Kotlin、Jetpack Compose 和 Android 自带加密接口
 
 - JDK 21、Android SDK Platform 37（本项目已验证的环境）。
 - Windows：`gradlew.bat :app:assembleDebug`
