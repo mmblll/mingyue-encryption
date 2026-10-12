@@ -1,0 +1,14 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Local encryption app: intentionally no INTERNET or storage permissions. -->
+    <application android:label="明月加密" android:icon="@mipmap/ic_launcher"
+        android:allowBackup="false" android:fullBackupContent="false"
+        android:dataExtractionRules="@xml/no_backup" android:supportsRtl="true"
+        android:theme="@android:style/Theme.Material.Light.NoActionBar">
+        <activity android:name=".VaultActivity" android:exported="true" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

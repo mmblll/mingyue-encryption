@@ -1,0 +1,29 @@
+# Generated files and local machine settings
+.gradle/
+.kotlin/
+**/build/
+dist/
+.idea/
+*.iml
+local.properties
+.DS_Store
+Thumbs.db
+__pycache__/
+
+# Never commit signing keys, credentials, personal inputs or outputs
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+*.env
+.env*
+keystore.properties
+signing.properties
+secrets/
+private/
+*.apk
+*.aab
+*.mingyue.png
+*.part
